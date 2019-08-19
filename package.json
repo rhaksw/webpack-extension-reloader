@@ -67,7 +67,7 @@
     "@types/mocha": "^5.2.5",
     "@types/sinon": "^7.0.0",
     "@types/useragent": "^2.1.1",
-    "@types/webpack": "^4.4.27",
+    "@types/webpack": "4.32.2",
     "@types/ws": "^6.0.1",
     "autoprefixer": "^9.3.1",
     "babel-loader": "^8.0.0",
