@@ -91,9 +91,7 @@
       logger(
         `Socket connection closed. Code ${code}. See more in ${
           SOCKET_ERR_CODE_REF
-        }`,
-        "warn"
-      );
+        }`);
     });
   }
 
