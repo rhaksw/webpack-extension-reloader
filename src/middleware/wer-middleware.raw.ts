@@ -94,16 +94,6 @@
         }`,
         "warn"
       );
-
-      const intId = setInterval(() => {
-        logger("Attempting to reconnect (tip: Check if Webpack is running)");
-        const ws = new WebSocket(wsHost);
-        ws.addEventListener("open", () => {
-          clearInterval(intId);
-          logger("Reconnected. Reloading plugin");
-          runtime.reload();
-        });
-      }, RECONNECT_INTERVAL);
     });
   }
 
